@@ -21,47 +21,81 @@ body {
 
 	background-color: black;
 	display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-style: none;
+  border-width: 0px;
+  
 }
 
 
 .welcome {
-    font-family: 'LEMON MILK';
-    text-align: center;
-    color: #00ff7e;
-    letter-spacing: 5px;
-    padding-top: 284px;
-
+		display: flex;
+	flex-direction: column;
+	font-family: 'LEMON MILK';
+  text-align: center;
+  color: #00ff7e;
+  letter-spacing: 5px;
 }
 
 .welcome1 {
     font-family: sans-serif;
     text-align: center;
+    border: none;
     background-color: transparent;
     color: #1c1c1c;
     cursor: help;
     letter-spacing: 5px;
-    margin-top: 461px;
+    margin-top: 430px;
+
 
 }
+
+
+.alpha {
+	display: flex;
+	flex-direction: column;
+	font-family: 'LEMON MILK';
+  text-align: center;
+  color: #00ff7e;
+  letter-spacing: 5px;
+  margin: -7px 10px;
+  padding: 16px -15px;
+  align-items: center;
+
+}
+
+
+.kiwis {
+
+
+	justify-content: center;
+	padding-top: 200px;
+	width: 130px;
+	height: 130px;
+}
+
+
 
 .menu {
 
 	display: flex;
 	flex-direction: row-reverse;
+	border: none;
 	justify-content: center;
 	border-width: 3px;
 	color: white;
 	padding: 0px 50px;
+	align-items: center;
 }
 
 .settings {
 
 	transition-duration: 0.7s;
 	background-color: black;
+	border: none;
 	color: whitesmoke;
 	font-family: 'LEMON MILK';
 }
@@ -70,6 +104,7 @@ body {
 
   
   color: limegreen;
+  border: none;
   cursor: pointer;
   font-family: 'LEMON MILK';
 }
@@ -122,22 +157,35 @@ body {
   font-family: 'LEMON MILK';
 }
 
+.aha {
+
+	color: black;
+}
+
+
 </style>
 
 <body>
 
+<div class="alpha">
 
-<h1 class="welcome">Welcome to the official KiwiGodX Website</h1>
 
+<img src="kiwi.png" class="kiwis">
+<h1 class="welcome">KiwiGodX </h1>
+
+
+
+
+</div>
 
 
 <div class='menu'>
 
-<a href="https://specs.gg/1x.kiwi" target="_blank"><button class="settings">Settings</button> </a>
-<a href="https://twitch.tv/KiwiGodX__" target="_blank"><button class="twitch">Twitch</button> </a>
-<a href="https://discord.gg/8a4qJGvXKe" target="_blank"><button class="discord">Discord</button> </a>
-<a href="https://www.tiktok.com/@1x.kiwi" target="_blank"> <button class="tiktok">TikTok</button> </a>
-
+<a href="https://specs.gg/1x.kiwi" target="_blank" style="border: none;"><button class="settings" style="border: none;">Settings</button> </a>
+<a href="https://twitch.tv/KiwiGodX__" target="_blank" style="border: none;"><button class="twitch" style="border: none;">Twitch</button> </a>
+<a href="https://discord.gg/8a4qJGvXKe" target="_blank" style="border: none;"><button class="discord" style="border: none;">Discord</button> </a>
+<a href="https://www.tiktok.com/@1x.kiwi" target="_blank" style="border: none;"> <button class="tiktok" style="border: none;">TikTok</button> </a>
+<p class="aha"> الله </p>
 </div>
 <div>
 <a href="https://clapps-lmao.github.io/clapps/"> <button class="welcome1"> Made By Clapps </button> </a>
