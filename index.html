@@ -1,50 +1,241 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta content="KiwiGodX" property="og:title" />
-    <meta content="Home of all epic gamers, but it's currently being updated!" property="og:description" />
-    <meta content="https://clapps-lmao.github.io/1x-kiwi" property="og:url" />
-    <meta content="https://clapps-lmao.github.io/kiwigodx/kiwi.png" property="og:image" />
-    <meta content="#00ff04" data-react-helmet="true" name="theme-color" />
-    <link href="https://fonts.cdnfonts.com/css/modern-vision" rel="stylesheet">
-    <title>Updates Coming Soon!</title>
+    <title>Your God</title>
 </head>
 <style>
-    @import url('https://fonts.cdnfonts.com/css/modern-vision');
+    @import url('https://fonts.cdnfonts.com/css/ts-block');
+    @import url('https://fonts.cdnfonts.com/css/b612-mono');
 
-body {
-    background: #000000;
-}
+    @media only screen and (orientation: portrait) {
+        .upper-landing-page {
+            height: 65%;
+        }
+        body {
+            scale: 120%;
+            overflow-x: hidden;
+        }
+    }
 
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: black;
+    }
+    body::-webkit-scrollbar {
+        display: none;
+    }
 
-.div-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    vertical-align: center;
-    font-size: 5vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
+    .text {
+        color: white;
+        letter-spacing: -2px;
+        font-family: "TS Block Bold";
+        font-size: xxx-large;
+    }
 
-}
-.main-ud-soon {
-    display: flex;
-    font-family: 'Modern Vision', sans-serif;
-    width: 5vw;
-    color: whitesmoke;
-    font-size: 6vh;
-    width: 35vw;
-}
+    .upper-landing-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: black;
+        min-height: 39%;
+        min-width: 100%;
+        translate: 0% -20%;
+    }
+
+    .lower-landing-page {
+        display: flex;
+        grid-auto-flow: column;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 30%;
+        width: 100%;
+        background: black;
+        justify-content: center;
+    }
+
+    .inner-lower {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .box {
+        display: grid;
+        flex-wrap: wrap;
+        color: white;
+        font-family: "TS Block Bold";
+        border: none;
+        width: 666px;
+        padding-top: 5px;
+        padding-left: 50px;
+    }
+    @keyframes rainbow {
+        0% { color: red; }
+        14% { color: orange; }
+        28% { color: yellow; }
+        43% { color: green; }
+        57% { color: blue; }
+        71% { color: indigo; }
+        85% { color: violet; }
+        100% { color: red; }
+    }
+
+    .rainbow-text {
+        animation: rainbow 10s linear infinite;
+        font-family: "TS Block Bold";
+        color: white;
+        letter-spacing: -2px;
+        font-size: xxx-large;
+    }
+
+    .heading-text {
+        border: solid;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        width: 666px;
+    }
+
+    .about-text {
+        font-size: 12px;
+        font-family: "B612 Mono";
+    }
+    .inner-box-grid {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .inner-box-grid-text {
+        display: flex;
+        align-content: center;
+        justify-content: flex-start;
+        padding-left: 20px;
+        align-items: center;
+        font-family: "B612 Mono";
+        border: solid gray;
+        border-radius: 7px;
+        border-width: 2px;
+        height: 50px;
+        width: 270px;
+        margin-right: 23px;
+        margin-bottom: 15px;
+        transition: ease-out 500ms;
+        flex-wrap: wrap;
+    }
+
+    .inner-box-grid-text:hover {
+        transition: ease-in 500ms;
+        border: solid white;
+        border-radius: 7px;
+        border-width: 2px;
+    }
+    .inner-grid-div {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        padding-right: 50px;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background: #000000;
+        height: 65px;
+        width: 100%;
+    }
+
+    .h3-footer {
+        font-family: "TS Block Bold";
+    }
 
 </style>
-<body>
-<div class="div-main">
-<p class="main-ud-soon">Hello! This website is not currently available at the moment, please check again later!</p>
+<body style="height: 3450px!important;">
+<div class="upper-landing-page">
+    <div class="its-working">
+        <span class="rainbow-text">K</span>
+        <span class="rainbow-text">i</span>
+        <span class="rainbow-text">w</span>
+        <span class="rainbow-text">i</span>
+        <span class="rainbow-text">G</span>
+        <span class="rainbow-text">o</span>
+        <span class="rainbow-text">d</span>
+        <span class="rainbow-text">x </span>
+    </div>
+    <p class="text" style="font-size: 22px!important; letter-spacing: 1px;!important;">Your lord and savior</p>
 </div>
+<div class="lower-landing-page">
+    <div class="inner-lower">
+        <div class="box">
+            <h3 class="heading-text">Bio</h3>
+            <div class="about-text">
+                <p>Name: Nolan</p>
+                <p>Age:18</p>
+                <p>Location: Ontario, Canada</p>
+            </div>
+        </div>
+        <div class="box">
+            <h3 class="heading-text">Specs</h3>
+            <div class="about-text">
+                <p>CPU: AMD Ryzen 5 5600x OC@ 4.6GhZ</p>
+                <p>RAM: 32GB Corsair Vengance 3200MHZ</p>
+                <p>GPU: Nvidia 1660 Super OC@ 130MhZ Core OC@ 800MhZ Memory</p>
+            </div>
+        </div>
+        <div class="box">
+            <h3 class="heading-text">Peripherals</h3>
+            <div class="about-text">
+                <p>Mouse: G-Wolves HAIT M Wireless (Electric Blue) </p>
+                <p>Keyboard: 75% Layout, Geteron Yellow Optical Switches (Lubed)</p>
+                <p>Earbuds: KZ ZST IEM's (Purple & Blue)</p>
+                <p>Main Monitor: ASUS TUF 27 Inch 144HZ 1080p</p>
+                <p>Second Monitor: ASUS 24 Inch 1080p 75hz</p>
+            </div>
+        </div>
+
+
+        <!-- If you would like to have more sections just copy the code from above and make sure you've pasted it after the section below-->
+
+
+        <div class="box">
+            <h3 class="heading-text">Socials</h3>
+            <div class="inner-box-grid">
+                <div class="inner-box-grid-text">
+                    <a class="inner-grid-div" href="https://www.tiktok.com/@1x.kiwi" target="_blank">TikTok</a>
+                    <img style="scale: 10%; position: absolute; padding-left: 150px" src="https://raw.githubusercontent.com/Clapps-lmao/sonoita/main/noun-share-673848%20copy.png">
+                </div>
+                <div class="inner-box-grid-text">
+                    <a class="inner-grid-div" href="https://www.youtube.com/@kiwigodx4171" target="_blank">YouTube</a>
+                    <img style="scale: 10%; position: absolute; padding-left: 150px" src="https://raw.githubusercontent.com/Clapps-lmao/sonoita/main/noun-share-673848%20copy.png">
+                </div>
+                <div class="inner-box-grid-text">
+                    <a class="inner-grid-div" href="https://discord.gg/JmU4zdmsAg" target="_blank">Discord</a>
+                    <img style="scale: 10%; position: absolute; padding-left: 150px" src="https://raw.githubusercontent.com/Clapps-lmao/sonoita/main/noun-share-673848%20copy.png">
+                </div>
+                <div class="inner-box-grid-text">
+                    <a class="inner-grid-div" href="https://twitter.com/KiwiGodX" target="_blank">Twitter</a>
+                    <img style="scale: 10%; position: absolute; padding-left: 180px" src="https://raw.githubusercontent.com/Clapps-lmao/sonoita/main/noun-share-673848%20copy.png">
+                </div>
+                <div class="inner-box-grid-text">
+                    <a class="inner-grid-div" href="https://kick.com/kiwigodx" target="_blank">Kick</a>
+                    <img style="scale: 10%; position: absolute; padding-left: 180px" src="https://raw.githubusercontent.com/Clapps-lmao/sonoita/main/noun-share-673848%20copy.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+    <h3 class="h3-footer" style="color: white;">Made by DJ, also Clapps#9999</h3>
+    <!-- Don't remove this, its creds for the template-->
+</div>
+
+
 </body>
 </html>
